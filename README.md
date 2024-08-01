@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) template (App Router).
 
-## Getting Started
+## Main tools used
 
-First, run the development server:
+* [Typescript](https://www.typescriptlang.org/) + [ESLint](https://eslint.org/)
+* [Tailwind CSS](https://tailwindcss.com/) + [SASS (SCSS)](https://sass-lang.com/)
+* [Shadcn UI](https://ui.shadcn.com/)
+
+## Notes
+
+- We are using [pnpm](https://pnpm.io/) as package manager.
+- Custom tailwind plugins and presets are located in `./tailwind` folder.
+- We added some global types in `./types.d.ts` like `DeepPartial`.
+- The `./cspell.config.yaml` file is a configuration file for [code spell checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) which is a VS Code extension, you can delete the file if you don't want to use the extension.
+
+## Clone
+
+### Using git
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Taib-Rabah/nextjs-template.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Using [Github CLI](https://cli.github.com/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+gh repo clone Taib-Rabah/nextjs-template
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
+[MIT](https://choosealicense.com/licenses/mit/)
 
-To learn more about Next.js, take a look at the following resources:
+## Developer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Taib Rabah
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Github: [Taib-Rabah](https://github.com/Taib-Rabah)
+- Telegram: [@y_o_5](https://t.me/y_o_5)
